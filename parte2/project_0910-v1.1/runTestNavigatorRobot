@@ -1,0 +1,1 @@
+pyrobot -s PlayerServer -r Player6665.py -c ../erratic-NoCam.cfg -b ./BrainTestNavigator.py

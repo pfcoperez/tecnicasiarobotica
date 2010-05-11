@@ -1,0 +1,88 @@
+!SESSION 2010-05-09 17:47:39.933 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.python.pydev 1 1 2010-05-09 19:48:15.364
+!MESSAGE Information about process of adding new interpreter:
+- Chosen interpreter (name and file):'Tuple [python -- /usr/bin/python2.6]
+- Ok, file is non-null. Getting info on:/usr/bin/python2.6
+- Beggining task:Getting libs totalWork:100
+- Setting task name:Mounting executable string...
+- Setting task name:Executing:  /usr/bin/python2.6 -u /usr/share/eclipse/dropins/pydev/plugins/org.python.pydev_1.5.1.1258496115/PySrc/interpreterInfo.py
+- Setting task name:Making pythonpath environment... /usr/bin/python2.6 -u /usr/share/eclipse/dropins/pydev/plugins/org.python.pydev_1.5.1.1258496115/PySrc/interpreterInfo.py
+- Setting task name:Making exec... /usr/bin/python2.6 -u /usr/share/eclipse/dropins/pydev/plugins/org.python.pydev_1.5.1.1258496115/PySrc/interpreterInfo.py
+- Setting task name:Reading output...
+- Setting task name:Waiting for process to finish.
+- Success getting the info. Result:Name:python:EndName:Version2.6Executable:/usr/bin/python2.6|/usr/lib/openoffice/basis-link/program|/usr/lib/python2.6|/usr/lib/python2.6/lib-dynload|/usr/lib/python2.6/lib-old|/usr/lib/python2.6/lib-tk|/usr/lib/python2.6/plat-linux2|/usr/lib/python2.6/site-packages|/usr/lib/python2.6/site-packages/PIL|/usr/lib/python2.6/site-packages/gst-0.10|/usr/lib/python2.6/site-packages/gtk-2.0|/usr/lib/python26.zip|/usr/share/eclipse/dropins/pydev/plugins/org.python.pydev_1.5.1.1258496115/PySrc@$|Image|OpenGL|__builtin__|__main__|_ast|_bisect|_bytesio|_codecs|_codecs_cn|_codecs_hk|_codecs_iso2022|_codecs_jp|_codecs_kr|_codecs_tw|_collections|_csv|_fileio|_functools|_heapq|_hotshot|_json|_locale|_lsprof|_md5|_multibytecodec|_random|_sha|_sha256|_sha512|_sre|_struct|_subprocess|_symtable|_warnings|_weakref|_winreg|array|audioop|binascii|cPickle|cStringIO|cmath|datetime|email|errno|exceptions|future_builtins|gc|imageop|imp|itertools|marshal|math|mmap|msvcrt|nt|numpy|operator|os|os.path|parser|posix|pwd|signal|strop|sys|thread|time|wx|wxPython|xxsubtype|zipimport|zlib
+
+
+!ENTRY org.python.pydev.core 4 4 2010-05-09 19:48:29.952
+!MESSAGE The encoding found: >>uft-8<< on /usr/lib/python2.6/test/bad_coding.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>uft-8<< on /usr/lib/python2.6/test/bad_coding.py is not a valid encoding.
+	at org.python.pydev.core.REF.getValidEncoding(REF.java:879)
+	at org.python.pydev.core.REF.getPythonFileEncoding(REF.java:855)
+	at org.python.pydev.core.REF.getPythonFileEncoding(REF.java:796)
+	at org.python.pydev.core.REF.getCustomReturnFromFile(REF.java:671)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.restoreInfoForModuleManager(InterpreterObserver.java:170)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyDefaultPythonpathRestored(InterpreterObserver.java:59)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.restorePythopathForAllInterpreters(AbstractInterpreterManager.java:457)
+	at org.python.pydev.ui.pythonpathconf.AbstractInterpreterPreferencesPage.doRestore(AbstractInterpreterPreferencesPage.java:113)
+	at org.python.pydev.ui.pythonpathconf.AbstractInterpreterPreferencesPage$1.run(AbstractInterpreterPreferencesPage.java:177)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.ui 4 4 2010-05-09 19:51:11.446
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.editor.actions.sourceMenu' is invalid): org.python.pydev.editor.actions.navigation.pyGoToDefinition
+
+!ENTRY org.eclipse.ui 4 4 2010-05-09 19:51:11.447
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.refactoring.refactoringMenu' is invalid): org.python.pydev.refactoring.rename
+!SESSION 2010-05-10 08:05:04.554 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2010-05-10 08:05:19.256
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.editor.actions.sourceMenu' is invalid): org.python.pydev.editor.actions.navigation.pyGoToDefinition
+
+!ENTRY org.eclipse.ui 4 4 2010-05-10 08:05:19.270
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.refactoring.refactoringMenu' is invalid): org.python.pydev.refactoring.rename
+!SESSION 2010-05-10 14:08:49.842 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2010-05-10 14:09:08.032
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.editor.actions.sourceMenu' is invalid): org.python.pydev.editor.actions.navigation.pyGoToDefinition
+
+!ENTRY org.eclipse.ui 4 4 2010-05-10 14:09:08.048
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.refactoring.refactoringMenu' is invalid): org.python.pydev.refactoring.rename
+
+!ENTRY org.python.pydev 4 4 2010-05-10 14:30:22.762
+!MESSAGE No message gotten.
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.AbstractDocument.computePartitioning(AbstractDocument.java:1390)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.computePartitioning(SynchronizableDocument.java:293)
+	at org.eclipse.jface.text.TextUtilities.computePartitioning(TextUtilities.java:429)
+	at org.python.pydev.editor.PyReconciler.reconcile(PyReconciler.java:229)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SESSION 2010-05-11 15:33:07.298 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2010-05-11 15:33:34.075
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.editor.actions.sourceMenu' is invalid): org.python.pydev.editor.actions.navigation.pyGoToDefinition
+
+!ENTRY org.eclipse.ui 4 4 2010-05-11 15:33:34.095
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.refactoring.refactoringMenu' is invalid): org.python.pydev.refactoring.rename

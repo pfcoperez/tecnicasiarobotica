@@ -1,0 +1,1 @@
+pyrobot -s PyrobotSimulator -w ./labSimulation.py -r PyrobotRobot60000.py -b ./BrainTestNavigator.py

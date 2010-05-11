@@ -1,0 +1,9 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{3}
+\contentsline {subsection}{\numberline {1.1}Objetivos y capacidades del m\IeC {\'o}dulo de navegaci\IeC {\'o}n}{3}
+\contentsline {subsection}{\numberline {1.2}Fundamentos de IA aplicados en sistema de navegaci\IeC {\'o}n}{3}
+\contentsline {section}{\numberline {2}Obtenci\IeC {\'o}n de configuraci\IeC {\'o}n para el perceptr\IeC {\'o}n:\\Aprendizaje de la red neuronal}{7}
+\contentsline {subsection}{\numberline {2.1}Primera aproximaci\IeC {\'o}n}{8}
+\contentsline {subsection}{\numberline {2.2}Segunda aproximaci\IeC {\'o}n: Elitismo}{11}
+\contentsline {section}{\numberline {3}Tercera aproximaci\IeC {\'o}n: Modificaci\IeC {\'o}n din\IeC {\'a}mica de velocidad de avance}{13}
+\contentsline {section}{\numberline {4}Resultados finales}{14}

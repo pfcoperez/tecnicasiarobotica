@@ -1,0 +1,51 @@
+# -*- coding: utf-8 -*-
+
+import pygame
+import Image
+import cv
+import time
+
+camara = cv.CreateCameraCapture(0)
+
+pygame.init()
+
+ventana = pygame.display.set_mode((640,480))
+ventana2 = pygame.display.set_mode((640,480))
+
+pygame.display.set_caption('Captura desde cámara')
+
+screen = pygame.display.get_surface()
+
+for i in range(5):
+    imagen = cv.QueryFrame(camara)
+    
+tamImagen = cv.GetSize(imagen)
+
+#Crea la estructura de datos para la imagen (relamente crea 2, una RGB y otra en 
+#escala de grises.
+imagenRGB = cv.CreateImage(tamImagen, cv.IPL_DEPTH_8U, 3)
+imagenGRIS = cv.CreateImage(tamImagen,cv.IPL_DEPTH_8U, 1)
+
+
+for k in range(50):
+    imagen = cv.QueryFrame(camara)
+    #Convierte la captura a formato RGB y lo guarda en imagenRGB
+    cv.CvtColor(imagen,imagenRGB,cv.CV_BGR2RGB)
+
+    #Convierte la imagen RGB a otra en formato PIL (a través de string)
+
+    imagenPIL = Image.fromstring('RGB', cv.GetSize(imagenRGB),
+                                 imagenRGB.tostring())
+
+    #Convierte la imagen en escala de grises PIL a otra en formato PYGAME
+
+    imagenpg = pygame.image.frombuffer(imagenPIL.tostring(),imagenPIL.size,imagenPIL.mode)
+
+    #Añade la imagen a la superficie de dibujo de pygame
+
+    screen.blit(imagenpg,(0,0))
+
+    #Actualiza superficie de dibujo.
+
+    pygame.display.flip()
+    time.sleep(0.1)

@@ -1,0 +1,3 @@
+M VisionLib.cpp
+D /home/pablo/practicas/tecnicas_ia_robotica/pyrobot/vision/cvision
+A '-O3' '-Wall' '-Wno-unused' '-D_POSIX_THREADS' '-D_POSIX_THREAD_SAFE_FUNCTIONS' '-D_REENTRANT' '-DPOSIX' '-D__x86__' '-D__linux__' '-D__OSVERSION__=2' '-frepo' '-DUSINGTHREADS' '-DLINUX' '-D_GNU_SOURCE' '-I/usr/include/python2.6' '-I../../camera/device/' '-o' 'VisionLib.o' '-c' '-mtune=generic' '-frandom-seed=0x100ec1fa'

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Planificador</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.python.pydev.PyDevBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.python.pydev.pythonNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>planificador</name>
+			<type>2</type>
+			<location>/media/1f2f43e2-cc1a-4344-a51f-ab2b4da67bec/practicas_temp/tecnicas_ia_robotica/parte2/planificador</location>
+		</link>
+	</linkedResources>
+</projectDescription>
