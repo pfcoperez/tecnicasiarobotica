@@ -10,7 +10,7 @@ camara = cv.CreateCameraCapture(0)
 pygame.init()
 
 ventana = pygame.display.set_mode((640,480))
-ventana2 = pygame.display.set_mode((640,480))
+#ventana2 = pygame.display.set_mode((640,480))
 
 pygame.display.set_caption('Captura desde cámara')
 

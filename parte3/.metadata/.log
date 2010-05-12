@@ -86,3 +86,105 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.ui 4 4 2010-05-11 15:33:34.095
 !MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.refactoring.refactoringMenu' is invalid): org.python.pydev.refactoring.rename
+!SESSION 2010-05-11 20:21:15.759 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2010-05-11 20:21:32.148
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.editor.actions.sourceMenu' is invalid): org.python.pydev.editor.actions.navigation.pyGoToDefinition
+
+!ENTRY org.eclipse.ui 4 4 2010-05-11 20:21:32.163
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.refactoring.refactoringMenu' is invalid): org.python.pydev.refactoring.rename
+
+!ENTRY org.python.pydev 4 4 2010-05-11 20:28:52.237
+!MESSAGE ERROR WITH STRING:
+!STACK 0
+java.lang.RuntimeException: Couldn't find END@@ on received string.
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.read(AbstractShell.java:641)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.read(AbstractShell.java:661)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.getCompletions(AbstractShell.java:891)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.getTheCompletions(AbstractShell.java:833)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.internalChangePythonPath(AbstractShell.java:823)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.getLineCol(AbstractShell.java:937)
+	at org.python.pydev.editor.codecompletion.revisited.modules.CompiledModule.findDefinition(CompiledModule.java:353)
+	at org.python.pydev.editor.codecompletion.revisited.modules.CompiledModule.findDefinition(CompiledModule.java:1)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findGlobalTokDef(SourceModule.java:907)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinitionsFromModAndTok(SourceModule.java:783)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:766)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1)
+	at org.python.pydev.editor.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:164)
+	at org.python.pydev.editor.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:72)
+	at com.python.pydev.refactoring.refactorer.RefactorerFindDefinition.findDefinition(RefactorerFindDefinition.java:50)
+	at com.python.pydev.refactoring.refactorer.Refactorer.findDefinition(Refactorer.java:64)
+	at com.python.pydev.refactoring.wizards.rename.PyRenameEntryPoint.checkInitialConditions(PyRenameEntryPoint.java:175)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.checkAnnotations(MarkOccurrencesJob.java:216)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.run(MarkOccurrencesJob.java:123)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2010-05-12 17:40:45.071 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-05-12 17:40:52.935
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2010-05-12 17:41:00.519
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.editor.actions.sourceMenu' is invalid): org.python.pydev.editor.actions.navigation.pyGoToDefinition
+
+!ENTRY org.eclipse.ui 4 4 2010-05-12 17:41:00.525
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.refactoring.refactoringMenu' is invalid): org.python.pydev.refactoring.rename
+!SESSION 2010-05-12 17:48:25.827 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-05-12 17:48:53.540
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2010-05-12 17:48:59.832
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.editor.actions.sourceMenu' is invalid): org.python.pydev.editor.actions.navigation.pyGoToDefinition
+
+!ENTRY org.eclipse.ui 4 4 2010-05-12 17:48:59.839
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.refactoring.refactoringMenu' is invalid): org.python.pydev.refactoring.rename
+!SESSION 2010-05-12 19:26:25.737 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2010-05-12 19:26:34.358
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.editor.actions.sourceMenu' is invalid): org.python.pydev.editor.actions.navigation.pyGoToDefinition
+
+!ENTRY org.eclipse.ui 4 4 2010-05-12 19:26:34.407
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.refactoring.refactoringMenu' is invalid): org.python.pydev.refactoring.rename
+
+!ENTRY org.python.pydev 4 4 2010-05-12 19:37:05.413
+!MESSAGE No message gotten.
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.AbstractDocument.computePartitioning(AbstractDocument.java:1390)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.computePartitioning(SynchronizableDocument.java:293)
+	at org.eclipse.jface.text.TextUtilities.computePartitioning(TextUtilities.java:429)
+	at org.python.pydev.editor.PyReconciler.reconcile(PyReconciler.java:229)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SESSION 2010-05-12 20:02:22.792 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2010-05-12 20:02:29.845
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.editor.actions.sourceMenu' is invalid): org.python.pydev.editor.actions.navigation.pyGoToDefinition
+
+!ENTRY org.eclipse.ui 4 4 2010-05-12 20:02:29.848
+!MESSAGE Plug-in 'com.python.pydev.refactoring' contributed an invalid Menu Extension (Path: 'org.python.pydev.refactoring.refactoringMenu' is invalid): org.python.pydev.refactoring.rename
