@@ -140,22 +140,6 @@ m1 = score.index(buffScore[0])
 m2 = score.index(buffScore[1])
 print m1,m2,'>',m1
 
-#Busca la homografía entre imagen observada y m1; Y la
-#homografía entre la imegen observada y m2.
-
-print 'M1: ',marcadores[m1][0]
-print 'M2: ',marcadores[m2][0]
-
-imarc1 = cv.LoadImage(marcadores[m1][0],cv.CV_LOAD_IMAGE_GRAYSCALE)
-tamImarc1 = cv.GetSize(imarc1)
-imarc2 = cv.LoadImage(marcadores[m2][0],cv.CV_LOAD_IMAGE_GRAYSCALE)
-tamImarc2 = cv.GetSize(imarc2)
-
-
-
-
-
-
 #Bucle de espera
 
 terminado = False
